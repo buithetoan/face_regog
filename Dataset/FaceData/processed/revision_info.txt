@@ -1,0 +1,7 @@
+arguments: src/align_dataset_mtcnn.py Dataset/FaceData/raw Dataset/FaceData/processed --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25
+--------------------
+tensorflow version: 1.15.0
+--------------------
+git hash: b'eb5b26bc7983f51a90fd43e9413dc038d4cd952a'
+--------------------
+b'diff --git a/requirements.txt b/requirements.txt\nindex d16ee22..8a335ab 100644\n--- a/requirements.txt\n+++ b/requirements.txt\n@@ -1,4 +1,4 @@\n-tensorflow>=1.12.1\n+tensorflow>=1.15.0\n scipy==1.1.0\n scikit-learn\n opencv-python\n@@ -7,3 +7,4 @@ matplotlib\n Pillow\n requests\n psutil\n+numpy==1.16.2'
